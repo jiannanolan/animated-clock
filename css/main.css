@@ -37,4 +37,11 @@ html {
     transform: rotate(0deg)
   }
 
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hour-hand {
+  animation: hand-rotate 6s linear infinite;
 }

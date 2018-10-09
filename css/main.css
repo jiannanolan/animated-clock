@@ -8,7 +8,7 @@ html {
   position: relative;
   width: 300px;
 
-  background: transparent url("../images/clockface.svg") no-repeat center center;
+  background: transparent url("../images/clock-face.svg") no-repeat center center;
 }
 
 .clock-center {
@@ -31,17 +31,18 @@ html {
   animation: hand-rotate .5s linear infinite;
 }
 
-@@keyframes hand-rotate {
+@keyframes hand-rotate {
 
   0% {
-    transform: rotate(0deg)
+    transform: rotate(0deg);
   }
 
   100% {
     transform: rotate(360deg);
   }
+
 }
 
-.hour-hand {
+.hand-hour {
   animation: hand-rotate 6s linear infinite;
 }
